@@ -42,7 +42,7 @@ class ViewController: UIViewController, changingText {
     }
     
     func modifyColor(newColor: UIColor) {
-        textLabel.highlightedTextColor = newColor
+        textLabel.backgroundColor = newColor
     }
 }
 

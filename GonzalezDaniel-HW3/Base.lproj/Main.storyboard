@@ -121,6 +121,9 @@
                                 <state key="normal" title="Blue">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="blueButtonPressed:" destination="Tfs-5d-jq5" eventType="touchUpInside" id="rw2-rq-tmG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLi-6N-6Uv">
                                 <rect key="frame" x="192" y="272" width="30" height="30"/>
@@ -128,6 +131,9 @@
                                 <state key="normal" title="Red">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="redButtonPressed:" destination="Tfs-5d-jq5" eventType="touchUpInside" id="qn5-WQ-IRU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pSa-hh-Nkm"/>

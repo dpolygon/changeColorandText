@@ -13,6 +13,15 @@ class ColorChangeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    }
+    
+    @IBAction func blueButtonPressed(_ sender: Any) {
+        let otherVC = delegate as! changingText
+        otherVC.modifyColor(newColor: UIColor.blue)
+    }
+    
+    @IBAction func redButtonPressed(_ sender: Any) {
+        let otherVC = delegate as! changingText
+        otherVC.modifyColor(newColor: UIColor.red)
     }
 }
