@@ -13,6 +13,8 @@
 		4D1D47012682BF9B008A42E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1D46FF2682BF9B008A42E5 /* Main.storyboard */; };
 		4D1D47032682BF9D008A42E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1D47022682BF9D008A42E5 /* Assets.xcassets */; };
 		4D1D47062682BF9D008A42E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1D47042682BF9D008A42E5 /* LaunchScreen.storyboard */; };
+		4D1D470E2682C816008A42E5 /* TextChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D470D2682C816008A42E5 /* TextChangeViewController.swift */; };
+		4D1D47102682C834008A42E5 /* ColorChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D470F2682C834008A42E5 /* ColorChangeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4D1D47022682BF9D008A42E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1D47052682BF9D008A42E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D1D47072682BF9D008A42E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1D470D2682C816008A42E5 /* TextChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextChangeViewController.swift; sourceTree = "<group>"; };
+		4D1D470F2682C834008A42E5 /* ColorChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				4D1D47022682BF9D008A42E5 /* Assets.xcassets */,
 				4D1D47042682BF9D008A42E5 /* LaunchScreen.storyboard */,
 				4D1D47072682BF9D008A42E5 /* Info.plist */,
+				4D1D470D2682C816008A42E5 /* TextChangeViewController.swift */,
+				4D1D470F2682C834008A42E5 /* ColorChangeViewController.swift */,
 			);
 			path = "GonzalezDaniel-HW3";
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1D47102682C834008A42E5 /* ColorChangeViewController.swift in Sources */,
 				4D1D46FE2682BF9B008A42E5 /* ViewController.swift in Sources */,
 				4D1D46FA2682BF9B008A42E5 /* AppDelegate.swift in Sources */,
 				4D1D46FC2682BF9B008A42E5 /* SceneDelegate.swift in Sources */,
+				4D1D470E2682C816008A42E5 /* TextChangeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
