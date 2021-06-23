@@ -8,22 +8,18 @@
 import UIKit
 
 class TextChangeViewController: UIViewController {
-
+    
+    var delegate: UIViewController!
+    var prevText: String!
+    @IBOutlet weak var newTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        newTextField.text = prevText
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func saveButtonPressed(_ sender: Any) {
+        let otherVC = delegate as! changingText
+        otherVC.modifyText(newText: newTextField.text!)
     }
-    */
-
 }

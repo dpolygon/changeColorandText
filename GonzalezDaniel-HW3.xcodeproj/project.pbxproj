@@ -63,12 +63,12 @@
 				4D1D46F92682BF9B008A42E5 /* AppDelegate.swift */,
 				4D1D46FB2682BF9B008A42E5 /* SceneDelegate.swift */,
 				4D1D46FD2682BF9B008A42E5 /* ViewController.swift */,
+				4D1D470D2682C816008A42E5 /* TextChangeViewController.swift */,
+				4D1D470F2682C834008A42E5 /* ColorChangeViewController.swift */,
 				4D1D46FF2682BF9B008A42E5 /* Main.storyboard */,
 				4D1D47022682BF9D008A42E5 /* Assets.xcassets */,
 				4D1D47042682BF9D008A42E5 /* LaunchScreen.storyboard */,
 				4D1D47072682BF9D008A42E5 /* Info.plist */,
-				4D1D470D2682C816008A42E5 /* TextChangeViewController.swift */,
-				4D1D470F2682C834008A42E5 /* ColorChangeViewController.swift */,
 			);
 			path = "GonzalezDaniel-HW3";
 			sourceTree = "<group>";
