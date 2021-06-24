@@ -1,6 +1,8 @@
 //
 //  ColorChangeViewController.swift
-//  GonzalezDaniel-HW3
+//  Project: GonzalezDaniel-HW3
+//  EID: Dg37584
+//  Course: CS371L
 //
 //  Created by Daniel Gonzalez on 6/22/21.
 //
